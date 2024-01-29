@@ -9,23 +9,23 @@ Telegram Bot "Вокс"
 python v. 3.7.3
 
 1) Установить venv:
-   Если python 3.7.3 основной
+    - Если python 3.7.3 основной
 
-```shell
-python.exe -m venv venv
-```
+   ```shell
+   python.exe -m venv venv
+   ```
 
-Если python 3.7.3 в другом месте
+    - Если python 3.7.3 в другом месте
 
-```shell
-C:\project\python373\python.exe -m venv venv
-```
+   ```shell
+   C:\project\python373\python.exe -m venv venv
+   ```
 
-Если требуется обновить pip
+    - Если требуется обновить pip
 
-```shell
-python -m pip install --upgrade pip
-```
+   ```shell
+   python -m pip install --upgrade pip
+   ```
 
 2) Включаем venv
 
@@ -41,4 +41,4 @@ pip install -r requirements.txt
 
 4) Для настройки чат бота и Firebase необходимо добавить файл "config.py" в "\src" и заполнить согласно "
    \src\config_template.py"
-5) Запуск `python .\src\main.py`
+5) Запуск `python .\src\main.py` | `python -m src.main.py`
